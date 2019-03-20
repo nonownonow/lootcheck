@@ -20,6 +20,18 @@ ShallowWrapper {
         className="input-wallet"
         onChange={[Function]}
     />
+    <button
+        className="btn-deposit"
+        onClick={[Function]}
+    >
+         deposit
+    </button>
+    <button
+        className="btn-withdraw"
+        onClick={[Function]}
+    >
+         withdraw
+    </button>
 </div>,
   "nodes": Array [
     <div>
@@ -34,6 +46,18 @@ ShallowWrapper {
             className="input-wallet"
             onChange={[Function]}
       />
+      <button
+            className="btn-deposit"
+            onClick={[Function]}
+      >
+             deposit
+      </button>
+      <button
+            className="btn-withdraw"
+            onClick={[Function]}
+      >
+             withdraw
+      </button>
 </div>,
   ],
   "options": Object {},
@@ -44,6 +68,8 @@ ShallowWrapper {
       "_context": Object {},
       "_currentElement": <Wallet
         balance={20}
+        deposit={[Function]}
+        withdraw={[Function]}
 />,
       "_debugID": 1,
       "_hostContainerInfo": null,
@@ -53,6 +79,8 @@ ShallowWrapper {
         "context": Object {},
         "props": Object {
           "balance": 20,
+          "deposit": [Function],
+          "withdraw": [Function],
         },
         "refs": Object {},
         "state": Object {
@@ -88,6 +116,18 @@ ShallowWrapper {
                     className="input-wallet"
                     onChange={[Function]}
           />
+          <button
+                    className="btn-deposit"
+                    onClick={[Function]}
+          >
+                     deposit
+          </button>
+          <button
+                    className="btn-withdraw"
+                    onClick={[Function]}
+          >
+                     withdraw
+          </button>
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div>
@@ -102,6 +142,18 @@ ShallowWrapper {
                     className="input-wallet"
                     onChange={[Function]}
           />
+          <button
+                    className="btn-deposit"
+                    onClick={[Function]}
+          >
+                     deposit
+          </button>
+          <button
+                    className="btn-withdraw"
+                    onClick={[Function]}
+          >
+                     withdraw
+          </button>
 </div>,
       },
       "_renderedNodeType": 0,
@@ -116,6 +168,8 @@ ShallowWrapper {
   "root": [Circular],
   "unrendered": <Wallet
     balance={20}
+    deposit={[Function]}
+    withdraw={[Function]}
 />,
 }
 `;
