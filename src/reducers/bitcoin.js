@@ -1,6 +1,6 @@
 import { FETCH_BITCOIN } from '../actions/constants'
 
-function bitcoin (store = '', action) {
+function bitcoin (store = {}, action) {
   let bitcoin
   switch (action.type) {
     case FETCH_BITCOIN:
